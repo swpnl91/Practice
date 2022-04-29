@@ -17,6 +17,7 @@ navToggle.addEventListener("click", function () {
   } else {
     links.classList.add("show-links");
   }
-  
+
+  links.classList.toggle("show-links");
   
 });
