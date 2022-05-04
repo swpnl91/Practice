@@ -133,5 +133,7 @@ function displayMenuButtons() {
     })
     .join("");
 
+  btnContainer.innerHTML = categoryBtns;
+
   
 }
