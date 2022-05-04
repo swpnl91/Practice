@@ -134,6 +134,7 @@ function displayMenuButtons() {
     .join("");
 
   btnContainer.innerHTML = categoryBtns;
-
+  const filterBtns = btnContainer.querySelectorAll(".filter-btn");
+  console.log(filterBtns);
   
 }
