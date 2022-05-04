@@ -113,3 +113,9 @@ function diplayMenuItems(menuItems) {
 
   sectionCenter.innerHTML = displayMenu;
 }
+
+function displayMenuButtons() {
+  
+
+  
+}
