@@ -25,3 +25,7 @@ navToggle.addEventListener("click", function () {
   }
   // console.log(linksContainer.getBoundingClientRect());
 });
+
+// ********** fixed navbar ************
+
+const navbar = document.getElementById("nav");
