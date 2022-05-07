@@ -54,6 +54,9 @@ window.addEventListener("scroll", function () {
 // select links
 const scrollLinks = document.querySelectorAll(".scroll-link");
 scrollLinks.forEach((link) => {
-  
+  link.addEventListener("click", (e) => {
+    
+    
+  });
 });
 // calculate heights
