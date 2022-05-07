@@ -49,3 +49,7 @@ window.addEventListener("scroll", function () {
     topLink.classList.remove("show-link");
   }
 });
+
+// ********** smooth scroll ************
+// select links
+const scrollLinks = document.querySelectorAll(".scroll-link");
