@@ -72,6 +72,13 @@ scrollLinks.forEach((link) => {
     if (navHeight > 82) {
       position = position + containerHeight;
     }
+
+    window.scrollTo({
+      left: 0,
+      top: position,
+    });
+    // close
+    linksContainer.style.height = 0;
   });
 });
 // calculate heights
