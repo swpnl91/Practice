@@ -55,7 +55,10 @@ window.addEventListener("scroll", function () {
 const scrollLinks = document.querySelectorAll(".scroll-link");
 scrollLinks.forEach((link) => {
   link.addEventListener("click", (e) => {
-    
+    // prevent default
+    e.preventDefault();
+    // navigate to specific spot
+    const id = e.currentTarget.getAttribute("href").slice(1);
     
   });
 });
