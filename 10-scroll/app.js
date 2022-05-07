@@ -64,6 +64,7 @@ scrollLinks.forEach((link) => {
     const navHeight = navbar.getBoundingClientRect().height;
     const containerHeight = linksContainer.getBoundingClientRect().height;
     const fixedNav = navbar.classList.contains("fixed-nav");
+    let position = element.offsetTop - navHeight;
   });
 });
 // calculate heights
