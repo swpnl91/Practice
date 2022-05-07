@@ -59,7 +59,7 @@ scrollLinks.forEach((link) => {
     e.preventDefault();
     // navigate to specific spot
     const id = e.currentTarget.getAttribute("href").slice(1);
-    
+    const element = document.getElementById(id);
   });
 });
 // calculate heights
