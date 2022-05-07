@@ -62,6 +62,7 @@ scrollLinks.forEach((link) => {
     const element = document.getElementById(id);
 
     const navHeight = navbar.getBoundingClientRect().height;
+    const containerHeight = linksContainer.getBoundingClientRect().height;
   });
 });
 // calculate heights
