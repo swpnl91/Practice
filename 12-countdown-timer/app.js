@@ -42,3 +42,4 @@ const minutes = futureDate.getMinutes();
 
 let month = futureDate.getMonth();
 month = months[month];
+const weekday = weekdays[futureDate.getDay()];
