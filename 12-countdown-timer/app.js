@@ -57,4 +57,5 @@ function getRemainingTime() {
   // 1hr = 60m
   // 1d = 24hr
   // values in miliseconds
+  const oneDay = 24 * 60 * 60 * 1000;
 }
