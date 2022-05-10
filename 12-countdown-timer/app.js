@@ -88,3 +88,5 @@ function getRemainingTime() {
 
 // countdown;
 let countdown = setInterval(getRemaindingTime, 1000);
+//set initial values
+getRemaindingTime();
