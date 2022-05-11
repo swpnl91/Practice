@@ -19,5 +19,7 @@ form.addEventListener("submit", function (e) {
   // A click on a form submit button – initiates its submission to the server.
 
   e.preventDefault();
+
+  const value = parseInt(amount.value);
   
 });
