@@ -15,3 +15,5 @@ let editID = "";
 
 // submit form
 form.addEventListener("submit", addItem);
+// clear list
+clearBtn.addEventListener("click", clearItems);
