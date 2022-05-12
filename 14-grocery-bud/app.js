@@ -128,3 +128,11 @@ function editItem(e) {
   //
   submitBtn.textContent = "edit";
 }
+
+// set back to defaults
+function setBackToDefault() {
+  grocery.value = "";
+  editFlag = false;
+  editID = "";
+  submitBtn.textContent = "submit";
+}
