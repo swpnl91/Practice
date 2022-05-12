@@ -152,3 +152,15 @@ function getLocalStorage() {
     ? JSON.parse(localStorage.getItem("list"))
     : [];
 }
+
+function removeFromLocalStorage(id) {
+  let items = getLocalStorage();
+
+  items = items.filter(function (item) {
+    if (item.id !== id) {
+      return item;
+    }
+  });
+
+  localStorage.setItem("list", JSON.stringify(items));
+}
