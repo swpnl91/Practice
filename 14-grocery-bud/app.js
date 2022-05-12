@@ -11,3 +11,7 @@ const clearBtn = document.querySelector(".clear-btn");
 let editElement;
 let editFlag = false;
 let editID = "";
+// ****** event listeners **********
+
+// submit form
+form.addEventListener("submit", addItem);
