@@ -17,3 +17,5 @@ let editID = "";
 form.addEventListener("submit", addItem);
 // clear list
 clearBtn.addEventListener("click", clearItems);
+// display items onload
+window.addEventListener("DOMContentLoaded", setupItems);
