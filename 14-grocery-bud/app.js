@@ -5,3 +5,4 @@ const alert = document.querySelector(".alert");
 const grocery = document.getElementById("grocery");
 const submitBtn = document.querySelector(".submit-btn");
 const container = document.querySelector(".grocery-container");
+const list = document.querySelector(".grocery-list");
