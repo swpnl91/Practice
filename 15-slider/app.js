@@ -12,3 +12,8 @@ nextBtn.addEventListener("click", function () {
   counter++;
   carousel();
 });
+
+prevBtn.addEventListener("click", function () {
+  counter--;
+  carousel();
+});
