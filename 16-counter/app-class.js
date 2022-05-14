@@ -7,3 +7,8 @@ function getElement(selection) {
     `Please check "${selection}" selector, no such element exists`
   );
 }
+
+class Counter {
+  
+  
+}
