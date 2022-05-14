@@ -40,3 +40,5 @@ class Counter {
   }
   
 }
+
+const firstCounter = new Counter(getElement('.first-counter'), 100);
