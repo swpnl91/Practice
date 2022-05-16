@@ -96,3 +96,5 @@ class Gallery {
     }
   }
 }
+
+const nature = new Gallery(getElement('.nature'));
