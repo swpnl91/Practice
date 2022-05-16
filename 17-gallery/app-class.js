@@ -59,4 +59,12 @@ class Gallery {
     this.modalImg.src = selectedImage.src;
     this.imageName.textContent = selectedImage.title;
   }
+
+  closeModal() {
+    this.modal.classList.remove('open');
+    this.closeBtn.removeEventListener('click', this.closeModal);
+    this.nextBtn.removeEventListener('click', this.nextImage);
+    this.prevBtn.removeEventListener('click', this.prevImage);
+    this.modalImages.removeEventListener('click', this.chooseImage);
+  }
 }
