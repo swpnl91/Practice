@@ -85,4 +85,14 @@ class Gallery {
     prev.classList.add('selected');
     this.setMainImage(prev);
   }
+
+  chooseImage(e) {
+    if (e.target.classList.contains('modal-img')) {
+      const selected = this.modalImages.querySelector('.selected');
+      selected.classList.remove('selected');
+
+      this.setMainImage(e.target);
+      e.target.classList.add('selected');
+    }
+  }
 }
