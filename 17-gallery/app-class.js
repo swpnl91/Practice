@@ -76,4 +76,13 @@ class Gallery {
     next.classList.add('selected');
     this.setMainImage(next);
   }
+
+  prevImage() {
+    const selected = this.modalImages.querySelector('.selected');
+    const prev =
+      selected.previousElementSibling || this.modalImages.lastElementChild;
+    selected.classList.remove('selected');
+    prev.classList.add('selected');
+    this.setMainImage(prev);
+  }
 }
