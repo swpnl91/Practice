@@ -67,4 +67,13 @@ class Gallery {
     this.prevBtn.removeEventListener('click', this.prevImage);
     this.modalImages.removeEventListener('click', this.chooseImage);
   }
+
+  nextImage() {
+    const selected = this.modalImages.querySelector('.selected');
+    const next =
+      selected.nextElementSibling || this.modalImages.firstElementChild;
+    selected.classList.remove('selected');
+    next.classList.add('selected');
+    this.setMainImage(next);
+  }
 }
