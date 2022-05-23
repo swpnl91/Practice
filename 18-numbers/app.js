@@ -8,5 +8,14 @@ const updateCount = (el) => {
 
   const increaseCount = setInterval(() => {
     initialValue += increment;
+
+    if (initialValue > value) {
+      el.textContent = `${value}+`;
+      clearInterval(increaseCount);
+      return;
+    }
+
+    el.textContent = `${initialValue}+`;
   }, 1);
+  // console.log(increaseCount);
 };
