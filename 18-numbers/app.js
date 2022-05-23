@@ -7,6 +7,6 @@ const updateCount = (el) => {
   let initialValue = 0;
 
   const increaseCount = setInterval(() => {
-    
+    initialValue += increment;
   }, 1);
 };
