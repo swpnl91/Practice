@@ -19,3 +19,7 @@ const updateCount = (el) => {
   }, 1);
   // console.log(increaseCount);
 };
+
+items.forEach((item) => {
+  updateCount(item);
+});
