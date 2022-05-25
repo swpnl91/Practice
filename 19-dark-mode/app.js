@@ -22,3 +22,5 @@ const articlesData = articles
         </article>`;
   })
   .join('');
+
+  articlesContainer.innerHTML = articlesData;
