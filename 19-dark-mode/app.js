@@ -8,4 +8,5 @@ toggleBtn.addEventListener('click', () => {
 const articlesData = articles
   .map((article) => {
     const { title, date, length, snippet } = article;
+    const formatDate = moment(date).format('MMMM Do, YYYY');
   })
