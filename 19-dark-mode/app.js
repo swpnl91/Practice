@@ -7,5 +7,5 @@ toggleBtn.addEventListener('click', () => {
 
 const articlesData = articles
   .map((article) => {
-    
+    const { title, date, length, snippet } = article;
   })
