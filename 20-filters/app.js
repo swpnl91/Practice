@@ -64,3 +64,5 @@ const displayButtons = () => {
     })
     .join('');
 };
+
+displayButtons();
