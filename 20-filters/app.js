@@ -30,3 +30,5 @@ const displayProducts = () => {
 displayProducts();
 
 // Text Filter
+
+const form = document.querySelector('.input-form');
