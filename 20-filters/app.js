@@ -49,3 +49,5 @@ form.addEventListener('keyup', () => {
 // );
 
 // Filter Buttons
+
+const companiesDOM = document.querySelector('.companies');
