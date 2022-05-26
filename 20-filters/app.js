@@ -1,0 +1,1 @@
+let filteredProducts = [...products];
