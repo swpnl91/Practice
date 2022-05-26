@@ -33,3 +33,19 @@ displayProducts();
 
 const form = document.querySelector('.input-form');
 const searchInput = document.querySelector('.search-input');
+
+form.addEventListener('keyup', () => {
+  const inputValue = searchInput.value;
+  filteredProducts = products.filter((product) => {
+    return product.title.toLowerCase().includes(inputValue);
+  });
+  displayProducts();
+});
+
+// console.log(
+//   products.filter((product) => {
+//     return product.title.toLowerCase().includes('');
+//   })
+// );
+
+// Filter Buttons
