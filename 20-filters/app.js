@@ -26,3 +26,7 @@ const displayProducts = () => {
     .join('');
   
 };
+
+displayProducts();
+
+// Text Filter
