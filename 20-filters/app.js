@@ -32,3 +32,4 @@ displayProducts();
 // Text Filter
 
 const form = document.querySelector('.input-form');
+const searchInput = document.querySelector('.search-input');
