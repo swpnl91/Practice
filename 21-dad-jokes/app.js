@@ -6,3 +6,7 @@ const result = document.querySelector('.result');
 btn.addEventListener('click', () => {
   fetchDadJoke();
 });
+
+const fetchDadJoke = async () => {
+  
+};
