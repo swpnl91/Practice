@@ -8,5 +8,5 @@ btn.addEventListener('click', () => {
 });
 
 const fetchDadJoke = async () => {
-  
+  result.textContent = 'Loading...';
 };
