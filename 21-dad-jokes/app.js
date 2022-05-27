@@ -27,3 +27,5 @@ const fetchDadJoke = async () => {
     result.textContent = 'There was an error...';
   }
 };
+
+fetchDadJoke();
