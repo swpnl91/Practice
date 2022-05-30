@@ -35,3 +35,8 @@ const displayProducts = (list) => {
           
         </div>`;
 };
+
+const start = async () => {
+  const data = await fetchProducts();
+  displayProducts(data);
+};
