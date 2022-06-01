@@ -11,3 +11,5 @@ const showUser = async () => {
 
   // display user
 };
+
+window.addEventListener('DOMContentLoaded', showUser);
