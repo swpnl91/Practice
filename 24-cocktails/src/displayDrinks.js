@@ -28,3 +28,5 @@ const displayDrinks = ({ drinks }) => {
   section.innerHTML = newDrinks;
   return section;
 };
+
+export default displayDrinks;
