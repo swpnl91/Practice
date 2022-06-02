@@ -12,3 +12,5 @@ const showDrinks = async (url) => {
     setDrink(section);
   }
 };
+
+export default showDrinks;
