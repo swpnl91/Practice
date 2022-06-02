@@ -28,3 +28,5 @@ const displayDrink = (data) => {
     })
     .join('');
 };
+
+export default displayDrink;
