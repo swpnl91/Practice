@@ -10,3 +10,5 @@ const fetchDrinks = async (url) => {
     console.log(error);
   }
 };
+
+export default fetchDrinks;
