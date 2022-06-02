@@ -6,3 +6,5 @@ const setDrink = (section) => {
     localStorage.setItem('drink', id);
   });
 };
+
+export default setDrink;
