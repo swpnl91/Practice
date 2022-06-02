@@ -12,3 +12,5 @@ const presentDrink = async () => {
     displayDrink(drink);
   }
 };
+
+window.addEventListener('DOMContentLoaded', presentDrink);
