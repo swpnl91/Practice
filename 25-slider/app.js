@@ -9,3 +9,9 @@ if (data.length === 1) {
   nextBtn.style.display = 'none'
   prevBtn.style.display = 'none'
 }
+
+// if length is 2, add copies of slides
+let people = [...data]
+if (data.length === 2) {
+  people = [...data, ...data]
+}
