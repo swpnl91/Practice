@@ -74,3 +74,7 @@ const startSlider = (type) => {
 nextBtn.addEventListener('click', () => {
   startSlider()
 })
+
+prevBtn.addEventListener('click', () => {
+  startSlider('prev')
+})
