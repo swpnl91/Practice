@@ -42,7 +42,7 @@ container.innerHTML = people
  </article>`
   })
   .join('')
-  
+
 const startSlider = (type) => {
   // get all three slides active,last next
   const active = document.querySelector('.active')
@@ -70,3 +70,7 @@ const startSlider = (type) => {
   last.classList.add('next')
   next.classList.add('active')
 }
+
+nextBtn.addEventListener('click', () => {
+  startSlider()
+})
