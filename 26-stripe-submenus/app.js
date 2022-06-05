@@ -13,3 +13,7 @@ const nav = document.querySelector('.nav');
 toggleBtn.addEventListener('click', () => {
   sidebarWrapper.classList.add('show');
 });
+
+closeBtn.addEventListener('click', () => {
+  sidebarWrapper.classList.remove('show');
+});
