@@ -8,3 +8,8 @@ const btnContainer = document.querySelector('.btn-container')
 
 let index = 0
 let pages = []
+
+const setupUI = () => {
+  displayFollowers(pages[index])
+  displayButtons(btnContainer, pages, index)
+}
