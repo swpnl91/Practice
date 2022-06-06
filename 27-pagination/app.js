@@ -13,3 +13,10 @@ const setupUI = () => {
   displayFollowers(pages[index])
   displayButtons(btnContainer, pages, index)
 }
+
+const init = async () => {
+  const followers = await fetchFollowers()
+  title.textContent = 'pagination'
+  pages = paginate(followers)
+  setupUI()
+}
