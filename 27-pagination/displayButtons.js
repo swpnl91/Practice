@@ -10,3 +10,5 @@ ${pageIndex + 1}
   btns.unshift(`<button class="prev-btn">prev</button>`)
   container.innerHTML = btns.join('')
 }
+
+export default displayButtons
