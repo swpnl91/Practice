@@ -6,3 +6,4 @@ const fetchFollowers = async () => {
   return data
 }
 
+export default fetchFollowers
