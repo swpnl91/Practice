@@ -15,3 +15,5 @@ const display = (followers) => {
     .join('')
   container.innerHTML = newFollowers
 }
+
+export default display
