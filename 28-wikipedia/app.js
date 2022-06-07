@@ -31,3 +31,20 @@ const fetchPages = async (searchValue) => {
     resultsDOM.innerHTML = '<div class="error"> there was an error...</div>';
   }
 };
+
+const renderResults = (list) => {
+  const cardsList = list
+    .map((item) => {
+      const { title, snippet, pageid } = item;
+      return `<a href=http://en.wikipedia.org/?curid=${pageid} target="_blank">
+            <h4>${title}</h4>
+            <p>
+              ${snippet}
+            </p>
+          </a>`;
+    })
+    .join('');
+  resultsDOM.innerHTML = `<div class="articles">
+          ${cardsList}
+        </div>`;
+};
