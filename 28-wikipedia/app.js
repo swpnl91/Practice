@@ -2,3 +2,4 @@ const url = 'https://en.wikipedia.org/w/api.php?action=query&list=search&srlimit
 
 const formDOM = document.querySelector('.form');
 const inputDOM = document.querySelector('.form-input');
+const resultsDOM = document.querySelector('.results');
